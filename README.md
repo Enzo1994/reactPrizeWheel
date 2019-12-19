@@ -1,3 +1,6 @@
+# 在这里：
+https://enzo1994.github.io/indianmifan/prizeWheel/ （记得科学上网）
+
 # 使用：
 `npm start`
 
@@ -10,7 +13,7 @@
 
 所以，中奖结果就是通过旋转度数来体现，这就成了一个映射表：**中奖结果 => 旋转度数：中奖结果对应的度数范围**，（我们先不考虑多旋转多少圈的问题）
 
-![网上找的转盘图片，自己扣的，后来发现这转盘居然不是圆的](https://img-blog.csdnimg.cn/20190928173837617.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzI5OTIzODgx,size_16,color_FFFFFF,t_70)
+![网上找的转盘图片](https://img-blog.csdnimg.cn/20190928173837617.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzI5OTIzODgx,size_16,color_FFFFFF,t_70)
 ### 先看看样式
 ```html
 <div className="prize__wrapper">   <!--相对定位-->
